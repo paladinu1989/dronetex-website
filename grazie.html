@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Candidatura ricevuta — DRONETEX</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <!-- Google Analytics 4 — sostituire G-XMRM4E0254 con il tuo Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMRM4E0254"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XMRM4E0254');
+    gtag('event', 'conversion', { 'event_category': 'form', 'event_label': 'candidatura_pp' });
+  </script>
+  <!-- Meta Pixel — sostituire XXXXXXXXXXXXXXX con il tuo Pixel ID -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'XXXXXXXXXXXXXXX');
+    fbq('track', 'PageView');
+    fbq('track', 'Lead');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=XXXXXXXXXXXXXXX&ev=Lead&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --clr-bg: #080808;
+      --clr-accent: #2563EB;
+      --clr-accent2: #60A5FA;
+      --clr-white: #ffffff;
+      --clr-muted: #888888;
+      --clr-border2: rgba(37,99,235,0.3);
+      --ff-head: 'Space Grotesk', sans-serif;
+      --ff-body: 'Inter', sans-serif;
+    }
+    html, body {
+      height: 100%;
+      background: var(--clr-bg);
+      color: var(--clr-white);
+      font-family: var(--ff-body);
+      -webkit-font-smoothing: antialiased;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+    .logo {
+      font-family: var(--ff-head);
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--clr-white);
+      margin-bottom: 3rem;
+    }
+    .logo span { color: var(--clr-accent); }
+    .icon {
+      width: 72px;
+      height: 72px;
+      background: rgba(37,99,235,0.1);
+      border: 1px solid var(--clr-border2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      color: var(--clr-accent2);
+    }
+    h1 {
+      font-family: var(--ff-head);
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      color: var(--clr-muted);
+      max-width: 480px;
+      line-height: 1.7;
+      margin-bottom: 0.5rem;
+    }
+    p strong { color: var(--clr-white); }
+    .steps {
+      margin: 2rem auto;
+      max-width: 440px;
+      text-align: left;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .steps-title {
+      font-family: var(--ff-head);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--clr-accent2);
+      margin-bottom: 1rem;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      color: #cccccc;
+    }
+    .step:last-child { margin-bottom: 0; }
+    .step-num {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      background: rgba(37,99,235,0.15);
+      border: 1px solid var(--clr-border2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--clr-accent2);
+      margin-top: 1px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--clr-accent);
+      color: #fff;
+      font-family: var(--ff-head);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <div class="logo">DRONE<span>TEX</span></div>
+
+  <div class="icon">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+    </svg>
+  </div>
+
+  <h1>Candidatura ricevuta!</h1>
+  <p>Grazie per aver inviato la tua candidatura al <strong>Programma Pilota DRONETEX</strong>.</p>
+  <p>Ti ricontatteremo entro <strong>24–48 ore</strong> per fissare un sopralluogo gratuito.</p>
+
+  <div class="steps">
+    <div class="steps-title">Cosa succede adesso</div>
+    <div class="step">
+      <div class="step-num">1</div>
+      <span>Ricevi un'email di conferma a breve all'indirizzo che hai indicato</span>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <span>Il nostro operatore valuta la tua candidatura entro 24h</span>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <span>Ti contatta per fissare il sopralluogo gratuito senza impegno</span>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <span>Se idoneo, ottieni la tariffa riservata Programma Pilota (-40%)</span>
+    </div>
+  </div>
+
+  <a href="/" class="btn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M19 12H5M12 5l-7 7 7 7"/>
+    </svg>
+    Torna al sito
+  </a>
+</body>
+</html>
